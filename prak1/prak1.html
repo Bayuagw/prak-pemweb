@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=initial-scale=1.0">
+    <title>Prak 1 Pemweb</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#tentang">Tentang Saya</a>
+            </li>
+            <li>
+                <a href="#pengalaman">Pengalaman Saya</a>
+            </li>
+            <li>
+                <a href="#kontak">Kontak Saya</a>
+            </li>
+        </ul>
+    </nav>
+
+    <img src="foto diri.jpg" width="200">
+    <h1>Bayu Agaluh Wijaya</h1>
+    <h3>Institut Teknologi Sumatera - Teknik Informatika</h3>
+    
+    <br>
+    <hr>
+
+    <section id="tentang">
+    <h2>Tentang Saya</h2>
+    <p align="justify">
+        Seorang mahasiswa dengan program studi teknik informatika yang memiliki keinginan tinggi
+        terhadap ilmu komputer dan teknologi informasi dan ingin belajar lebih dalam lagi mengenai
+        ilmu-ilmu teknik informatika. Selama 5 semester ini saya masih 'buta' terhadap dunia informatika, 
+        seperti <i>coding</i> dan juga <i>algoritma</i>. Oleh karena itu, di semester 5 ini saya ingin belajar
+        lebih dalam lagi mengenai informatika.
+    </p>
+    </section>
+    
+    <section id="video">
+        <iframe width="270" 
+        src="https://www.youtube.com/embed/MCVkMmYL-aY?si=dmZJ2-ioc1lrMk30" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+        </iframe>
+    </section>
+    
+    <hr>
+
+    <section id="pengalaman">
+        <h2>Pengalaman Saya</h2>
+        <table border="1" width="500">
+            <thead>
+                <tr>
+                    <th>Organisasi dan Kepanitiaan</th>
+                    <th>Jabatan</th>
+                    <th>Tahun</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>HMIF ITERA</td>
+                    <td>Staff Publikasi dan Dokumentasi</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>PPLK ITERA</td>
+                    <td>Staff Pendamping Kelompok</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>KRTI 2023</td>
+                    <td>Staff Komdis</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>PPLK ITERA</td>
+                    <td>Staff Pendamping Kelompok</td>
+                    <td>2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <br>
+    <hr>
+
+    <section id="kontak">
+        <h2>Hubungi Saya</h2>
+        <form action="">
+            <label for="email">Email</label>
+            <input type="email" name="email-input" placeholder="Masukkan email"/><br>
+            <label for="phone">No Hp</label>
+            <input type="tel" name="phone" pattern="[0-9]{13}" placeholder="087654324567"/>
+            <p>Pilih Presiden</p>
+            <input type="checkbox" id="presiden1" name="presiden1" value="Prabowo">
+            <label for="presiden1">Prabowo</label><br>
+            <input type="checkbox" id="presiden2" name="presiden2" value="Ganjar">
+            <label for="presiden2">Ganjar</label><br>
+            <input type="checkbox" id="presiden3" name="presiden3" value="Anies">
+            <label for="presiden3">Anies</label><br>
+            <input type="text" name="text-input" placeholder="Alasan"/>
+            <button type="button">Kirim</button>
+        </form>
+    </section>
+
+    <br><br>
+    <hr>
+    
+    <footer>
+        <p><i>Tugas Praktikum 1 PemWeb RC</i></p>
+    </footer>
+</body>
+</html>
